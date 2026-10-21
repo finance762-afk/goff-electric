@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "useful_because": "The homepage shows a Rio Rancho or Albuquerque customer what Goff Electric actually does and how to reach it at any hour: eight of the ten services with a real job photo each (commercial electrical rooms, panel terminations, atrium pendants, a living-room fan, trench and conduit work), the 4.9 Google rating from 42 reviews with the live review feed, the six towns served across Sandoval and Bernalillo counties, why the high desert matters for electrical work (monsoon lightning and surges, summer cooling loads, load calculations before an EV charger circuit), the warning signs that call for an emergency visit, and plain answers to permit, panel-capacity, surge and licensing questions. Sibling pages go deeper on one service or town; this page is the only one that lays out the whole service mix, the four-step job flow and the 24/7 line together.",
+      "needs_confirmation": [
+        {
+          "fact": "New Mexico CID electrical contractor license number and classification",
+          "question": "What is Goff Electric's New Mexico Construction Industries Division license number (and classification, for example EE-98J)? We'd like to show it on the site and in the FAQ.",
+          "where": "FAQ 'Is Goff Electric licensed and insured?', hero chips, schema hasCredential"
+        },
+        {
+          "fact": "Insurance details",
+          "question": "Which insurance does Goff Electric carry (general liability, workers' comp), and is there anything you'd like customers to know about it?",
+          "where": "FAQ 'Is Goff Electric licensed and insured?'"
+        },
+        {
+          "fact": "Year founded / years in business",
+          "question": "What year did Goff Electric start? Founding year powers the proof strip and the about section.",
+          "where": "proof strip, about stat card"
+        },
+        {
+          "fact": "Permits and inspections handled for the customer",
+          "question": "Does Goff Electric pull the permits and schedule the city/state inspections for customers' jobs?",
+          "where": "FAQ 'Do I need a permit for electrical work in Rio Rancho?', process step 3"
+        },
+        {
+          "fact": "Emergency and callback response times",
+          "question": "How quickly do you usually call back a web estimate request, and how fast can you typically get to an emergency call in Rio Rancho or Albuquerque?",
+          "where": "estimate section 'What happens next', hero form tagline, emergency band"
+        },
+        {
+          "fact": "Job process steps",
+          "question": "We described a job as: call or form → free estimate (with a load calculation where needed) → work done to code → walkthrough before close-out. Is that how a typical Goff Electric job runs? Anything to add or change?",
+          "where": "about section 'How a Goff Electric job runs'"
+        },
+        {
+          "fact": "Estimate format",
+          "question": "Are estimates given on site, by phone, or both? Are they written?",
+          "where": "estimate section, process step 2"
+        },
+        {
+          "fact": "Typical price ranges",
+          "question": "Can you share typical price ranges for a Level 2 EV charger install and a panel upgrade in the Rio Rancho area? Ranges help visitors decide to call.",
+          "where": "services section, FAQ 'Can Goff Electric upgrade my panel or install an EV charger?'"
+        },
+        {
+          "fact": "Hot tub / spa circuits as a listed service",
+          "question": "Several Google reviews mention hot tub hookups. Should hot tub and spa circuits be listed as a service?",
+          "where": "residential electrical card"
+        },
+        {
+          "fact": "Whole-home surge protector installation",
+          "question": "Do you install whole-home surge protectors? If yes, we'll say so in the surge-protection FAQ instead of the general advice that's there now.",
+          "where": "FAQ 'Should I install surge protection in my Rio Rancho home?'"
+        },
+        {
+          "fact": "Text messages accepted",
+          "question": "Can customers text (505) 549-9454? If yes, we'll add a 'Text us' button to the mobile bar.",
+          "where": "mobile CTA bar, estimate section"
+        },
+        {
+          "fact": "Photo details",
+          "question": "For the project photos on the site, can you tell us what each job was and which town it was in? Right now the captions only describe what's visible.",
+          "where": "recent work gallery, service card photos"
+        }
+      ]
+    }
+  ],
+  "consolidate": []
+}

@@ -184,6 +184,55 @@ if (!function_exists('icon')) {
 }
 
 /* ---------------------------------------------------------------------------
+ * Responsive images — <picture> with AVIF first, WebP srcset on the <img>, .jpg src (v6.3).
+ * Only variants that exist on disk are emitted (most portrait originals have -480/-960 but no -1600).
+ * ------------------------------------------------------------------------- */
+
+if (!function_exists('imageSrcset')) {
+    /** "/assets/images/<name>-480.<ext> 480w, …" for the variants on disk; '' when none exist. */
+    function imageSrcset(string $name, string $ext = 'webp'): string {
+        $dir = rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/assets/images/';
+        $parts = [];
+        foreach ([480, 960, 1600] as $fnW) {
+            if (is_file($dir . $name . '-' . $fnW . '.' . $ext)) $parts[] = '/assets/images/' . $name . '-' . $fnW . '.' . $ext . ' ' . $fnW . 'w';
+        }
+        return implode(', ', $parts);
+    }
+}
+
+if (!function_exists('responsivePicture')) {
+    /**
+     * <picture> for a photo in /assets/images/ by basename (no extension). width/height come from the original
+     * scaled to the largest variant, so the box ratio is always the photo's real ratio (no CLS).
+     * $opt: loading ('lazy'|'eager'), fetchpriority ('high' — hero only), class (on <img>).
+     * Lazy images also get decoding="async".
+     */
+    function responsivePicture(string $name, string $alt, string $sizes, array $opt = []): string {
+        $dir = rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/assets/images/';
+        $src = is_file($dir . $name . '.jpg') ? '/assets/images/' . $name . '.jpg' : '/assets/images/' . $name . '-960.webp';
+        $w = 960; $h = 720;
+        $info = is_file($dir . $name . '.jpg') ? @getimagesize($dir . $name . '.jpg') : false;
+        if ($info && $info[0] > 0) {
+            $maxW = 480;
+            foreach ([960, 1600] as $fnW) if (is_file($dir . $name . '-' . $fnW . '.webp')) $maxW = $fnW;
+            $maxW = min($maxW, $info[0]);
+            $w = $maxW; $h = (int) round($info[1] * $maxW / $info[0]);
+        }
+        $loading = ($opt['loading'] ?? 'lazy') === 'eager' ? 'eager' : 'lazy';
+        $avif = imageSrcset($name, 'avif');
+        $webp = imageSrcset($name, 'webp');
+        $extra = '';
+        if ($webp !== '') $extra .= ' srcset="' . esc($webp) . '" sizes="' . esc($sizes) . '"';
+        if (!empty($opt['fetchpriority'])) $extra .= ' fetchpriority="' . esc($opt['fetchpriority']) . '"';
+        if (!empty($opt['class'])) $extra .= ' class="' . esc($opt['class']) . '"';
+        $img = sprintf('<img src="%s"%s alt="%s" width="%d" height="%d" loading="lazy" decoding="async">', esc($src), $extra, esc($alt), $w, $h);
+        if ($loading === 'eager') $img = str_replace(' loading="lazy" decoding="async"', ' loading="eager"', $img);
+        $source = $avif !== '' ? '<source type="image/avif" srcset="' . esc($avif) . '" sizes="' . esc($sizes) . '">' : '';
+        return '<picture>' . $source . $img . '</picture>';
+    }
+}
+
+/* ---------------------------------------------------------------------------
  * SEO helpers
  * ------------------------------------------------------------------------- */
 
@@ -354,6 +403,25 @@ if (!function_exists('generateWebSiteSchema')) {
         global $siteName, $siteUrl;
         $root = rtrim($siteUrl, '/');
         return ['@type' => 'WebSite', '@id' => $root . '/#website', 'url' => $root . '/', 'name' => $siteName, 'publisher' => ['@id' => $root . '/#organization']];
+    }
+}
+
+if (!function_exists('generateWebPageSchema')) {
+    /** WebPage node for the current page: part of #website, about #organization. $url is absolute (the canonical). */
+    function generateWebPageSchema(string $url, string $name, string $description = ''): array {
+        global $siteUrl;
+        $root = rtrim($siteUrl, '/');
+        $node = [
+            '@type'    => 'WebPage',
+            '@id'      => $url . '#webpage',
+            'url'      => $url,
+            'name'     => $name,
+            'isPartOf' => ['@id' => $root . '/#website'],
+            'about'    => ['@id' => $root . '/#organization'],
+            'inLanguage' => 'en-US',
+        ];
+        if ($description !== '') $node['description'] = $description;
+        return $node;
     }
 }
 
