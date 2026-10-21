@@ -325,7 +325,7 @@ $emergencyUrl  = serviceUrl('24-7-emergency-electrical-service');
       <div class="hero-text">
         <span class="eyebrow">Rio Rancho, NM · Albuquerque metro</span>
         <h1 class="hero-title" id="hero-title">Your Rio Rancho electrician, <span class="text-accent">day or night</span></h1>
-        <p class="hero-answer">Goff Electric wires Rio Rancho homes and businesses: panels, EV chargers, lighting, repairs.</p>
+        <p class="hero-answer">Goff Electric wires Rio Rancho homes and businesses: panel upgrades, EV charger circuits, lighting, outlets, new wiring and repairs. Call any hour for emergency electrical work, or request a free estimate and hear back by phone or email.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a free estimate</button>
           <a class="link-call" href="tel:<?php echo esc($phoneRaw); ?>"><?php echo icon('phone', 18); ?><span>or call <strong><?php echo esc($phoneText); ?></strong></span></a>
