@@ -65,6 +65,351 @@
           "where": "recent work gallery, service card photos"
         }
       ]
+    },
+    {
+      "path": "/services/24-7-emergency-electrical-service/",
+      "useful_because": "This page is built for someone with a live electrical problem: the phone number is the hero, followed immediately by four safety steps (smoke means 911, switch off a sparking circuit, stop resetting a tripping breaker, report a dark street to PNM), the problems that cannot wait (burning smell, half the house dead, monsoon storm damage), a table that sorts electrician problems from utility problems, what Goff Electric does on site (trace, make safe, repair or scope the fix, report utility-side faults), and Google reviews describing a cut power line traced after 7 p.m. and a short three other electricians missed. The homepage only has a short emergency band; no sibling page covers what to do before the electrician arrives or who to call first.",
+      "needs_confirmation": [
+        {
+          "fact": "Typical emergency response time",
+          "question": "How quickly can Goff Electric usually get to an emergency call in Rio Rancho or Albuquerque, day and night? We'd only state it if you're comfortable promising it.",
+          "where": "/services/24-7-emergency-electrical-service/ — hero and process"
+        },
+        {
+          "fact": "After-hours / emergency rates",
+          "question": "Is there an after-hours or emergency service fee, and do you want it mentioned?",
+          "where": "/services/24-7-emergency-electrical-service/ — 'How does an emergency call with Goff Electric work?'"
+        },
+        {
+          "fact": "Who answers the emergency line",
+          "question": "Does Garrett answer the emergency line himself after hours, or an answering service? Should the page say who picks up?",
+          "where": "/services/24-7-emergency-electrical-service/ — hero and process step 1"
+        },
+        {
+          "fact": "Utility territories served",
+          "question": "Do you cover homes served by co-ops (e.g., parts of Sandoval County) as well as PNM customers? We currently say 'PNM, the utility for most of the metro'.",
+          "where": "/services/24-7-emergency-electrical-service/ — safety steps and 'Is it an electrician problem or a PNM problem?'"
+        },
+        {
+          "fact": "Temporary power / generator hookups",
+          "question": "During a long outage or after storm damage, do you set up temporary power or generator connections?",
+          "where": "/services/24-7-emergency-electrical-service/ — 'What does Goff Electric do on an emergency electrical call?'"
+        },
+        {
+          "fact": "Emergency calls for businesses",
+          "question": "Does the emergency line cover commercial customers as well as homes?",
+          "where": "/services/24-7-emergency-electrical-service/ — hero and scope"
+        }
+      ]
+    },
+    {
+      "path": "/services/ceiling-fan-installation/",
+      "useful_because": "This page tells a Rio Rancho or Albuquerque homeowner what separates the three kinds of ceiling fan job (replacing a fan, turning a light fixture into a fan, adding a fan where there is no wiring) in a comparison table, why a light-only box may not be rated to hold a fan, what vaulted and sloped ceilings need (downrod length, slope-rated canopy), how separate fan and light controls are wired, how fans help evaporative coolers and refrigerated air in summer, and the three-step install Goff Electric follows. It also says plainly that no Google review names a ceiling fan yet and shows the closest fixture and lighting reviews. No sibling page covers fan support, controls or ceiling types.",
+      "needs_confirmation": [
+        {
+          "fact": "Ceiling fan install price range",
+          "question": "What do you typically charge to replace an existing ceiling fan, to swap a light fixture for a fan, and to add a fan where there is no ceiling wiring?",
+          "where": "/services/ceiling-fan-installation/ — scenario table"
+        },
+        {
+          "fact": "Fan supply and assembly",
+          "question": "Do customers usually supply the fan, or can Goff Electric supply one? Is assembly included?",
+          "where": "/services/ceiling-fan-installation/ — 'What does Goff Electric's ceiling fan installation include?'"
+        },
+        {
+          "fact": "High and vaulted ceiling limits",
+          "question": "Is there a ceiling height you do not work above without special equipment (for example 14 ft or 20 ft great rooms)?",
+          "where": "/services/ceiling-fan-installation/ — scenario table note on vaulted ceilings"
+        },
+        {
+          "fact": "Ceiling fan reviews / photos",
+          "question": "Do you have any customer reviews or job photos specifically of ceiling fan installs we could use? The page currently shows fixture and lighting reviews instead.",
+          "where": "/services/ceiling-fan-installation/ — 'What do Goff Electric customers say about ceiling work?'"
+        },
+        {
+          "fact": "Exterior / patio fans",
+          "question": "Do you install outdoor-rated fans on covered patios and portales?",
+          "where": "/services/ceiling-fan-installation/ — scope list"
+        }
+      ]
+    },
+    {
+      "path": "/services/commercial-electrical/",
+      "useful_because": "This page gives an Albuquerque or Rio Rancho business owner, property manager or general contractor the commercial side of Goff Electric that the homepage only names in one card: the triggers for calling (build-outs, new equipment, overheating panels), the scope from the electrical room out (panelboards, dry-type transformer, EMT conduit banks, underground feeders to steel buildings, tenant power, commercial lighting), three of the company's own commercial job photos, a four-step project sequence that works alongside the GC and ends with a labeled panel directory, Google reviews from a 45-year construction veteran and a long-time client who sends him statewide, and a checklist table of what to verify with any bidder (CID license, insurance, comparable work, after-hours coverage). No sibling page covers commercial projects.",
+      "needs_confirmation": [
+        {
+          "fact": "Commercial building types and project sizes served",
+          "question": "What kinds of commercial work does Goff Electric take most (offices, retail tenant build-outs, restaurants, warehouses/shops, new construction)? Any project-size limits?",
+          "where": "/services/commercial-electrical/ — 'When does a commercial building in Albuquerque need an electrical contractor?'"
+        },
+        {
+          "fact": "Three-phase service and voltages handled",
+          "question": "Do you work on three-phase services (208/120 and 480/277) and commercial service upgrades?",
+          "where": "/services/commercial-electrical/ — scope list 'Electrical rooms'"
+        },
+        {
+          "fact": "After-hours / off-hours scheduled work",
+          "question": "For businesses, can scheduled work be done after closing or on weekends to avoid downtime?",
+          "where": "/services/commercial-electrical/ — process and comparison table"
+        },
+        {
+          "fact": "Certificate of insurance and license classification",
+          "question": "What is your CID license classification (e.g., EE-98J), and can you provide a certificate of insurance to commercial customers and GCs on request?",
+          "where": "/services/commercial-electrical/ — comparison table and FAQ"
+        },
+        {
+          "fact": "Statewide travel",
+          "question": "A review says Garrett has travelled all over the state for jobs. Do you take commercial work outside the Albuquerque metro, and where?",
+          "where": "/services/commercial-electrical/ — 'Statewide when you need it'"
+        },
+        {
+          "fact": "Photo job details",
+          "question": "For the commercial photos (electrical room with transformer, conduit bank into a wireway, panelboard, atrium pendants, trench to the steel building), what was each job and where?",
+          "where": "/services/commercial-electrical/ — Recent Work strip and scope photo"
+        }
+      ]
+    },
+    {
+      "path": "/services/electrical-inspections/",
+      "useful_because": "This page tells a homeowner, buyer or business owner exactly what a Goff Electric electrical inspection looks at and what each item can catch (panel and breakers, grounding and bonding, GFCI/AFCI protection, outlets and switches, visible wiring, service entrance), when an inspection is worth scheduling (warning signs, buying a Rio Rancho house from the 1970s or '80s, before a hot tub, charger or shop), how buyers can use it alongside a general home inspection, the four-step visit, and the real Google reviews from a Corrales couple told they did not need an electrician and a customer whose short three other electricians missed. No other page describes the inspection itself.",
+      "needs_confirmation": [
+        {
+          "fact": "Inspection price",
+          "question": "Is an electrical safety inspection free, a flat fee, or priced by the size of the home or building?",
+          "where": "/services/electrical-inspections/ — hero chips and process"
+        },
+        {
+          "fact": "Written report",
+          "question": "Do customers receive a written report or checklist after an inspection, or are findings gone over verbally on site?",
+          "where": "/services/electrical-inspections/ — checklist answer and process step 3"
+        },
+        {
+          "fact": "Insurance / lender inspections",
+          "question": "Do you do inspections for insurance companies (for example 4-point inspections) or for lenders and real-estate transactions that need a signed letter?",
+          "where": "/services/electrical-inspections/ — 'Who uses Goff Electric's electrical inspections?'"
+        },
+        {
+          "fact": "Typical visit length",
+          "question": "How long does a typical home electrical inspection take on site?",
+          "where": "/services/electrical-inspections/ — process section"
+        },
+        {
+          "fact": "Commercial inspections",
+          "question": "Do you inspect commercial buildings (electrical rooms, panelboards) before a tenant build-out or sale? The page says businesses use the service, per the site config.",
+          "where": "/services/electrical-inspections/ — 'Businesses' row"
+        },
+        {
+          "fact": "License number",
+          "question": "What is the NM CID license number we can show in the licensing FAQ?",
+          "where": "/services/electrical-inspections/ — FAQ 'Is Goff Electric licensed and insured to inspect electrical systems in New Mexico?'"
+        }
+      ]
+    },
+    {
+      "path": "/services/electrical-panel-upgrades-repair/",
+      "useful_because": "This page helps a Rio Rancho or Albuquerque homeowner tell whether a panel needs a repair, a replacement or a full service upgrade: the three warning signs (breakers that will not stay on, heat or buzzing, no spaces left), a comparison table of repair vs. panel replacement vs. service upgrade (what each fixes, typical trigger, amperage after, who is involved including PNM), why so many Rio Rancho homes built after AMREP started the city in 1961 still run original 100–150 amp panels, the older brands widely flagged for replacement, what happens on swap day, and real Google reviews about a new panel, a breaker panel upgrade with a 220-volt hot tub circuit, and a panel-and-outlet repair. The homepage only lists panels as one card; the EV page covers charger sizing, not panel work itself.",
+      "needs_confirmation": [
+        {
+          "fact": "Typical panel replacement / service upgrade price range",
+          "question": "What does a typical panel replacement cost with Goff Electric, and a 100- or 150-amp to 200-amp service upgrade? A range helps visitors decide to call.",
+          "where": "/services/electrical-panel-upgrades-repair/ — options table and scope section"
+        },
+        {
+          "fact": "Permits pulled for panel and service upgrades",
+          "question": "On panel replacements and service upgrades, does Goff Electric pull the permit and schedule the city/county inspection and the PNM disconnect/reconnect?",
+          "where": "/services/electrical-panel-upgrades-repair/ — FAQ 'Does a panel replacement in Rio Rancho need a permit?', process step 3"
+        },
+        {
+          "fact": "Whole-home surge protector installation",
+          "question": "Do you install whole-home surge protective devices at the panel? If yes we will say so instead of the general advice now on the panel page.",
+          "where": "/services/electrical-panel-upgrades-repair/ — FAQ 'Should I add surge protection when my panel is replaced?', expert section"
+        },
+        {
+          "fact": "Typical outage length on swap day",
+          "question": "How long is the power usually off during a panel swap or service upgrade (a few hours, most of a day)?",
+          "where": "/services/electrical-panel-upgrades-repair/ — scope answer and process 'Swap day'"
+        },
+        {
+          "fact": "Rick's role",
+          "question": "A Google review names 'Garrett Goff and Rick' on a panel upgrade. Is Rick a Goff Electric electrician or apprentice, and may we name him on the site?",
+          "where": "/services/electrical-panel-upgrades-repair/ — expert section 'Names you will see on the job'"
+        },
+        {
+          "fact": "Federal Pacific / Zinsco replacements",
+          "question": "Do you regularly replace Federal Pacific Stab-Lok or Zinsco panels in Rio Rancho? We mention them as brands widely flagged for replacement.",
+          "where": "/services/electrical-panel-upgrades-repair/ — 'Why so many Rio Rancho panels are due'"
+        }
+      ]
+    },
+    {
+      "path": "/services/electrical-wiring-installation-repair/",
+      "useful_because": "This page shows a customer how Goff Electric handles wiring faults and new runs: the three common fault symptoms (a short that keeps tripping, half a room dead, a hot smell with nothing visible), the real Google review about a short three other electricians missed, what is installed (fault repair, new circuits for appliances, hot tubs and shop equipment, remodel rough-in, rewiring, underground feeders), why stucco-over-frame houses and CMU block walls in the metro often mean exterior conduit, why shops on large lots in Rio Rancho, Corrales and Placitas get fed underground, a repair vs. rewire vs. new-wiring table, and the four-step fault-tracing sequence. No sibling page covers troubleshooting or underground feeders.",
+      "needs_confirmation": [
+        {
+          "fact": "Wiring repair / rewire price ranges",
+          "question": "Do you have typical ranges for a fault-finding call, adding a dedicated circuit, or rewiring a room, that we can show?",
+          "where": "/services/electrical-wiring-installation-repair/ — options table"
+        },
+        {
+          "fact": "Trenching done in-house",
+          "question": "For underground feeders, does Goff Electric dig the trench itself (the photo shows a mini excavator) or bring in an excavation sub?",
+          "where": "/services/electrical-wiring-installation-repair/ — scope list 'Underground feeders'"
+        },
+        {
+          "fact": "Permits for new circuits and rewiring",
+          "question": "Does Goff Electric pull permits and schedule inspections for new circuits, additions and rewiring?",
+          "where": "/services/electrical-wiring-installation-repair/ — FAQ 'Does adding a circuit or rewiring a room need a permit in Rio Rancho?'"
+        },
+        {
+          "fact": "Older wiring types handled",
+          "question": "Do you replace aluminum branch wiring, ungrounded two-wire circuits or other older wiring types common in 1970s-era homes?",
+          "where": "/services/electrical-wiring-installation-repair/ — scope 'Rewiring'"
+        },
+        {
+          "fact": "Commercial wiring scope",
+          "question": "The hero photo shows commercial EMT conduit work. Should the wiring page mention commercial and tenant wiring too, or keep it residential?",
+          "where": "/services/electrical-wiring-installation-repair/ — hero and scope"
+        }
+      ]
+    },
+    {
+      "path": "/services/ev-charger-installation/",
+      "useful_because": "This page tells a Rio Rancho or Albuquerque EV owner exactly what a Goff Electric Level 2 install involves and why the panel decides the job: the load calculation against summer cooling, range and hot tub loads, the dedicated 240-volt circuit, hardwired versus plug-in, the route to a garage or detached shop (including underground feeders), a Level 1 vs Level 2 table with DOE charging rates, a four-step install sequence, what happens when the panel is short (panel upgrade, PNM coordination), and the real Google reviews that mention EV charger installs. The homepage only lists EV charging as one card; no sibling page covers charger sizing or Level 1 vs Level 2.",
+      "needs_confirmation": [
+        {
+          "fact": "Typical EV charger install price range",
+          "question": "What does a typical Level 2 EV charger install cost with Goff Electric (for example, charger within 20 feet of the panel vs. a long run or detached garage)? A range helps visitors decide to call.",
+          "where": "/services/ev-charger-installation/ — 'What does a Goff Electric EV charger installation include?'"
+        },
+        {
+          "fact": "Charger brands installed / customer-supplied chargers",
+          "question": "Do you install chargers the customer already bought (Tesla Wall Connector, ChargePoint, Emporia, etc.), supply the charger yourselves, or both?",
+          "where": "/services/ev-charger-installation/ — scope list, 'Hardwired or plug-in'"
+        },
+        {
+          "fact": "Permit pulled for EV charger circuits",
+          "question": "For EV charger circuits, does Goff Electric pull the permit and schedule the inspection with the City of Rio Rancho / City of Albuquerque?",
+          "where": "/services/ev-charger-installation/ — FAQ 'Do I need a permit to install an EV charger in Rio Rancho?'"
+        },
+        {
+          "fact": "Load management devices as an alternative to a panel upgrade",
+          "question": "When a panel is short on capacity, do you ever install a load-management device or EV energy management system instead of a full panel upgrade?",
+          "where": "/services/ev-charger-installation/ — FAQ 'Can Goff Electric install an EV charger if my panel is already full?'"
+        },
+        {
+          "fact": "Commercial / multi-unit EV charging",
+          "question": "Do you install EV chargers for businesses, workplaces or multi-unit properties, or residential only?",
+          "where": "/services/ev-charger-installation/ — hero and scope"
+        }
+      ]
+    },
+    {
+      "path": "/services/lighting-installation/",
+      "useful_because": "This page shows a Rio Rancho or Albuquerque homeowner or business what a lighting job with Goff Electric actually involves beyond hanging a fixture: when a project needs new boxes or a new circuit (a fixture-by-fixture table for swaps, recessed cans, pendants and exterior/security lights), how textured and vaulted ceilings affect can placement, dusk-to-dawn and motion controls for exterior lights, New Mexico's Night Sky Protection Act and shielded fixtures for semi-rural Corrales and Placitas, a four-step plan-to-finished sequence, real job photos (commercial atrium pendants, kitchen pendants going up, a recessed living-room ceiling) and the Google reviews that mention pendant, recessed and fixture work. The homepage gives lighting one card; no sibling page covers fixture types, switching or outdoor-lighting rules.",
+      "needs_confirmation": [
+        {
+          "fact": "Typical lighting price ranges",
+          "question": "Can you share typical prices for a fixture swap, a recessed-can layout (per light or for a typical room) and pendant installs? Ranges help visitors decide to call.",
+          "where": "/services/lighting-installation/ — 'Which lighting jobs need a new box or a new circuit?'"
+        },
+        {
+          "fact": "Fixture supply",
+          "question": "Do customers supply their own fixtures, does Goff Electric supply them, or both?",
+          "where": "/services/lighting-installation/ — 'What does Goff Electric's lighting installation cover?'"
+        },
+        {
+          "fact": "Landscape and low-voltage lighting",
+          "question": "Do you install landscape or low-voltage path lighting, or only line-voltage exterior and security lights?",
+          "where": "/services/lighting-installation/ — scope list, exterior and security lighting"
+        },
+        {
+          "fact": "Smart lighting controls",
+          "question": "Do you install smart switches, smart dimmers or app-controlled lighting systems? Any brands you prefer?",
+          "where": "/services/lighting-installation/ — scope list, 'Switching that makes sense'"
+        },
+        {
+          "fact": "Commercial lighting scope",
+          "question": "The atrium photo shows commercial pendant and downlight work. Do you also do commercial lighting retrofits (LED conversions, parking-lot or wall-pack lighting)?",
+          "where": "/services/lighting-installation/ — expert section"
+        },
+        {
+          "fact": "Permit handling for new lighting circuits",
+          "question": "When a lighting project adds a circuit, does Goff Electric pull the permit and schedule the inspection?",
+          "where": "/services/lighting-installation/ — FAQ 'Do I need a permit to add new lighting in Rio Rancho?'"
+        }
+      ]
+    },
+    {
+      "path": "/services/outlets-switches/",
+      "useful_because": "This page helps a Rio Rancho or Albuquerque homeowner tell a nuisance outlet from a fire risk (warm, discolored, burning smell, sparking, plugs that fall out, dead outlets on a live circuit), explains why Goff Electric traces a failed outlet back to the cause before replacing it, lays out where GFCI and AFCI protection generally apply room by room in a table, covers 240-volt receptacles for hot tubs, welders, dryers and ranges, switched patio outlets for seasonal lights, surge protection given monsoon lightning, and a four-step fix sequence. It quotes the Google reviews that mention outlets, plugs and switches. The homepage lists outlets as one card; no sibling page covers GFCI/AFCI or outlet diagnosis.",
+      "needs_confirmation": [
+        {
+          "fact": "Outlet and switch price ranges",
+          "question": "What do you typically charge to replace an outlet or switch, add a GFCI, or add a new outlet on an existing circuit?",
+          "where": "/services/outlets-switches/ — 'What outlet and switch work does Goff Electric handle?'"
+        },
+        {
+          "fact": "Whole-home surge protector installation",
+          "question": "Do you install whole-home surge protective devices at the panel? If yes, we will say so directly in the surge FAQ instead of general advice.",
+          "where": "/services/outlets-switches/ — FAQ 'Should I add surge protection when I replace outlets?'"
+        },
+        {
+          "fact": "Smart switches, USB outlets and dimmers",
+          "question": "Do you install smart switches, USB-charging outlets and dimmers, and do you supply them or install customer-bought devices?",
+          "where": "/services/outlets-switches/ — scope list, 'Device upgrades'"
+        },
+        {
+          "fact": "AFCI / GFCI upgrades in older homes",
+          "question": "Do you offer GFCI/AFCI upgrade packages for older homes (for example, bringing a 1980s Rio Rancho house up to current protection)?",
+          "where": "/services/outlets-switches/ — 'Where do outlets need GFCI or AFCI protection?'"
+        },
+        {
+          "fact": "Permit handling for new outlet circuits",
+          "question": "When new outlets need a new circuit, does Goff Electric pull the permit and schedule the inspection?",
+          "where": "/services/outlets-switches/ — FAQ 'Do I need a permit to add new outlets in Rio Rancho?'"
+        }
+      ]
+    },
+    {
+      "path": "/services/residential-electrical/",
+      "useful_because": "This page shows a Rio Rancho, Albuquerque or Corrales homeowner what Goff Electric does inside and around a house and what each common job involves: hot tub, swim spa and jacuzzi feeds (240-volt circuit, disconnect placement, GFCI) timed to the delivery date, room-by-room receptacles, dedicated appliance circuits, remodel rough-in and troubleshooting, with a table of code requirements per job, the warning signs that call for an electrician, a four-step home job sequence, and real Google reviews about hot tub hookups and home outlets. It also carries the reviewer-reported honesty points (options laid out, a Corrales couple told no work was needed, Garrett and Rick named on a panel-plus-hot-tub job). The homepage lists residential work as one card; sibling pages cover single services, not the household job mix.",
+      "needs_confirmation": [
+        {
+          "fact": "Hot tub / swim spa circuits as a listed service",
+          "question": "Many Google reviews are about hot tub and swim spa hookups. Should hot tub and spa electrical be its own service (with its own page), or stay described under Residential Electrical?",
+          "where": "/services/residential-electrical/ — scope list and comparison table"
+        },
+        {
+          "fact": "Typical residential price ranges",
+          "question": "Can you share typical price ranges for common home jobs (hot tub circuit, adding an outlet, a new dedicated circuit)? Ranges help visitors decide to call.",
+          "where": "/services/residential-electrical/ — 'What residential electrical work does Goff Electric do?'"
+        },
+        {
+          "fact": "Permits handled for residential jobs",
+          "question": "For home jobs that need a permit (hot tub feeds, new circuits), does Goff Electric pull the permit and schedule the inspection?",
+          "where": "/services/residential-electrical/ — FAQ 'Do I need a permit for electrical work on my Rio Rancho house?'"
+        },
+        {
+          "fact": "Whole-home surge protector installation",
+          "question": "Do you install whole-home surge protectors? If yes, the surge FAQ will say so instead of 'ask about it during the estimate'.",
+          "where": "/services/residential-electrical/ — FAQ 'Should a Rio Rancho home have whole-house surge protection?'"
+        },
+        {
+          "fact": "Team members",
+          "question": "Reviews name Garrett and Rick. Who else is on the Goff Electric crew, and may we name team members on the site?",
+          "where": "/services/residential-electrical/ — 'Why do Rio Rancho homeowners keep calling Goff Electric back?'"
+        },
+        {
+          "fact": "Hot tub setup after delivery",
+          "question": "Two reviewers say Garrett came back after the tub was delivered to set it up. Is returning to connect/start up the tub after delivery a standard part of a hot tub job?",
+          "where": "/services/residential-electrical/ — process step 3 and comparison table"
+        }
+      ]
+    },
+    {
+      "path": "/services/",
+      "useful_because": "The services hub is the only page that shows all ten Goff Electric services together (the homepage shows eight), split into who the work is for (homes vs. commercial buildings) and the eight specific jobs, plus a symptom-to-service table that turns the warning signs customers ask about (tripping breakers, warm outlets, burning smell, flicker when the AC starts, a new EV or hot tub arriving) into the right service page, and the six towns served with their counties.",
+      "needs_confirmation": []
     }
   ],
   "consolidate": []
