@@ -298,17 +298,20 @@ if (!function_exists('ogImageUrl')) {
 
 if (!function_exists('generateMetaTags')) {
     /**
-     * <title>, description, canonical, robots and Open Graph tags.
+     * <title>, description, canonical, robots and Open Graph tags. Robots: $robotsMeta (verbatim) > $noindex > index, follow.
      * Never emits a keywords meta or any Twitter/X Card tag (both forbidden, QA blockers).
      */
     function generateMetaTags(string $title, string $description, string $canonical): string {
-        global $siteName, $noindex, $ogType;
+        global $siteName, $noindex, $robotsMeta, $ogType;
         $out  = '<title>' . esc($title) . "</title>\n";
         $out .= '<meta name="description" content="' . esc($description) . "\">\n";
         $out .= '<link rel="canonical" href="' . esc($canonical) . "\">\n";
-        $out .= !empty($noindex)
-            ? "<meta name=\"robots\" content=\"noindex, nofollow\">\n"
-            : "<meta name=\"robots\" content=\"index, follow, max-image-preview:large\">\n";
+        // $robotsMeta (e.g. "noindex, follow" on the blog placeholder) overrides $noindex's "noindex, nofollow"
+        $out .= !empty($robotsMeta)
+            ? '<meta name="robots" content="' . esc($robotsMeta) . "\">\n"
+            : (!empty($noindex)
+                ? "<meta name=\"robots\" content=\"noindex, nofollow\">\n"
+                : "<meta name=\"robots\" content=\"index, follow, max-image-preview:large\">\n");
         $out .= '<meta property="og:type" content="' . esc(!empty($ogType) ? $ogType : 'website') . "\">\n";
         $out .= '<meta property="og:title" content="' . esc($title) . "\">\n";
         $out .= '<meta property="og:description" content="' . esc($description) . "\">\n";

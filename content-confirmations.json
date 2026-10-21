@@ -500,6 +500,113 @@
           "where": "/terms/ — Warranties, Payment, Cancellation"
         }
       ]
+    },
+    {
+      "path": "/service-areas/",
+      "useful_because": "The hub shows, on one page, which six towns Goff Electric covers around Rio Rancho (a coverage map plotted from real coordinates), what is different about electrical work in each (capacity in Rio Rancho and Albuquerque, acre lots and wells in Corrales, historic adobe and a floodplain in Bernalillo, rock and wells in Placitas, mountain winters in Tijeras), and a town-by-town table of who issues the electrical permit. No other page answers 'do you come to my town' or 'which office permits my address'.",
+      "needs_confirmation": [
+        {
+          "fact": "Furthest distance travelled",
+          "question": "The hub says the six towns sit within about 30 miles of Rio Rancho (the target radius in the plan). Do you also take jobs beyond those six towns, e.g. Los Lunas, Algodones or Edgewood?",
+          "where": "/service-areas/ — 'Which towns does Goff Electric serve around Rio Rancho?'"
+        }
+      ]
+    },
+    {
+      "path": "/service-areas/rio-rancho/",
+      "useful_because": "The Rio Rancho page explains why most local jobs are about panel capacity (the city grew from about 10,000 residents in 1981 to 104,046 in 2020), how mesa wind, sandy soils and monsoon lightning affect equipment, and the split between city permits (Building Division) and the unincorporated Rio Rancho Estates (state CID), with named neighborhoods and a facts card (ZIPs, elevation range, zone 7b, PNM).",
+      "needs_confirmation": [
+        {
+          "fact": "Whole-home surge protection",
+          "question": "Do you install whole-home surge protectors at the panel? The area pages recommend asking about one because of monsoon lightning; we'd like to say Goff Electric installs them.",
+          "where": "/service-areas/rio-rancho/ — conditions section"
+        },
+        {
+          "fact": "New service on bare Estates lots",
+          "question": "Do you install new services (meter base, panel, feeders) on lots in the Rio Rancho Estates that are not yet powered, including coordinating with PNM on the line extension?",
+          "where": "/service-areas/rio-rancho/ — 'Is a Rio Rancho Estates job handled differently…?' and FAQ"
+        }
+      ]
+    },
+    {
+      "path": "/service-areas/albuquerque/",
+      "useful_because": "The Albuquerque page sorts the city by neighborhood age (valley and Old Town, late-1950s Northeast Heights, Westside, foothills) and what each era usually needs, covers the swamp-cooler-to-refrigerated-air load question, and explains which Albuquerque addresses are permitted by the city versus Bernalillo County. It shows the live Google review that names Albuquerque.",
+      "needs_confirmation": [
+        {
+          "fact": "Whole-home surge protection",
+          "question": "Do you install whole-home surge protectors at the panel? The area pages recommend asking about one because of monsoon lightning; we'd like to say Goff Electric installs them.",
+          "where": "/service-areas/albuquerque/ — conditions section"
+        },
+        {
+          "fact": "Refrigerated air circuits",
+          "question": "When customers switch from a swamp cooler to refrigerated air, do you run the new 240-volt circuit and disconnect for the HVAC contractor?",
+          "where": "/service-areas/albuquerque/ — conditions and FAQ"
+        }
+      ]
+    },
+    {
+      "path": "/service-areas/corrales/",
+      "useful_because": "The Corrales page is built around what makes the village different: the one-acre minimum lot (since 1971), long underground feeders to shops and barns, private wells, cottonwoods over service lines (the November 2024 outage) and monsoon runoff below the escarpment, with landmarks along Corrales Road and the Google review from a Corrales couple.",
+      "needs_confirmation": [
+        {
+          "fact": "Well pump / well house circuits",
+          "question": "Do you wire and repair well pump circuits and feeders to well houses? The page describes the well pump as part of the electrical plan on rural lots.",
+          "where": "/service-areas/corrales/ — local story and services"
+        },
+        {
+          "fact": "Corrales electrical permits",
+          "question": "Who issues electrical permits for your Corrales jobs: the Village of Corrales or the state Construction Industries Division? We could not confirm it, so the page tells people to check with the Village.",
+          "where": "/service-areas/corrales/ — FAQ 'Do I need a permit for electrical work in Corrales?'"
+        }
+      ]
+    },
+    {
+      "path": "/service-areas/bernalillo/",
+      "useful_because": "The Bernalillo page covers the Town of Bernalillo specifically (not Bernalillo County): historic adobe on Camino del Pueblo and how adobe changes rewiring, the 2008 floodplain mapping and where equipment should sit, and the Town's three-step permit path (Town zoning and floodplain review, then a CID permit and CID inspection).",
+      "needs_confirmation": [
+        {
+          "fact": "Historic / adobe buildings",
+          "question": "Are you comfortable with the page saying Goff Electric rewires older adobe buildings (surface conduit or raceway rather than fishing walls)?",
+          "where": "/service-areas/bernalillo/ — FAQ and services"
+        }
+      ]
+    },
+    {
+      "path": "/service-areas/placitas/",
+      "useful_because": "The Placitas page explains foothill-specific work: trenching through granite and limestone, wells with uneven yields, subdivisions built with buried utilities (Diamond Tail, Sundance Mesa, Anasazi Meadows) versus private-well areas, and wildfire and lightning risk in the Placitas Corridor, plus the CID permit route for unincorporated Sandoval County.",
+      "needs_confirmation": [
+        {
+          "fact": "Well pump / well house circuits",
+          "question": "Do you wire and repair well pump circuits and feeders to well houses? The page describes the well pump as part of the electrical plan on rural lots.",
+          "where": "/service-areas/placitas/ — local story and services"
+        },
+        {
+          "fact": "Utility in Placitas",
+          "question": "Are your Placitas customers all on PNM, or do some parts use a co-op (e.g. Jemez Mountains Electric)? The page says PNM and tells people to check their bill.",
+          "where": "/service-areas/placitas/ — facts card and FAQ"
+        }
+      ]
+    },
+    {
+      "path": "/service-areas/tijeras/",
+      "useful_because": "The Tijeras page covers mountain conditions no other page does: zone 7a winters, east winds through Tijeras Canyon, New Mexico's largest wildland-urban interface and PNM's 2025 planned shutoff, how to prepare a house for a long outage, and the permit split between the unincorporated East Mountains (Bernalillo County) and the village.",
+      "needs_confirmation": [
+        {
+          "fact": "Whole-home surge protection",
+          "question": "Do you install whole-home surge protectors at the panel? The area pages recommend asking about one because of monsoon lightning; we'd like to say Goff Electric installs them.",
+          "where": "/service-areas/tijeras/ — conditions section"
+        },
+        {
+          "fact": "Generator transfer equipment",
+          "question": "Do you install generator inlets / transfer switches? The page only warns against back-feeding; if you install them we can say so.",
+          "where": "/service-areas/tijeras/ — 'How can a Tijeras home get ready for a long power outage?'"
+        },
+        {
+          "fact": "Tijeras village permits",
+          "question": "For jobs inside the Village of Tijeras, who issues the electrical permit (village, Bernalillo County or CID)? The page currently says to confirm with the village.",
+          "where": "/service-areas/tijeras/ — FAQ and facts card"
+        }
+      ]
     }
   ],
   "consolidate": []

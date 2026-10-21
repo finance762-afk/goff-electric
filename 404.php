@@ -48,7 +48,21 @@ foreach ($services as $nfSvc) {
     $nfUrl = serviceUrl($nfSvc['slug']);
     if ($nfUrl !== '') $nfPages[] = ['name' => $nfSvc['name'], 'url' => $nfUrl, 'desc' => $nfSvc['description'], 'words' => $nfSvc['name'] . ' ' . ($nfServiceWords[$nfSvc['slug']] ?? '')];
 }
+/* Town pages (Phase 6) — "rio", "rancho", "albuquerque" are stop words below, so each town also carries neighborhood words */
+$nfAreaWords = [
+    'rio-rancho'  => 'riorancho estates enchanted hills cabezon mariposa northern meadows star heights 87124 87144',
+    'albuquerque' => 'abq westside heights northeast taylor ventana paradise valley 87114 87120',
+    'corrales'    => 'corrales village 87048',
+    'bernalillo'  => 'bernalillo town 87004',
+    'placitas'    => 'placitas foothills 87043',
+    'tijeras'     => 'tijeras east mountains canyon cedar crest 87059',
+];
+foreach ($serviceAreas as $nfArea) {
+    $nfUrl = areaUrl($nfArea['slug'], false);
+    if ($nfUrl !== '') $nfPages[] = ['name' => 'Electrician in ' . $nfArea['name'], 'url' => $nfUrl, 'desc' => 'Local electrical notes, permits and services for ' . $nfArea['name'] . ', NM.', 'words' => $nfArea['name'] . ' ' . ($nfAreaWords[$nfArea['slug']] ?? '')];
+}
 foreach ([
+    ['/service-areas/', 'Service areas', 'The six towns Goff Electric serves, with a coverage map.', 'areas area service towns town cities city locations location serve served coverage map'],
     ['/services/', 'All electrical services', 'Every service Goff Electric offers, with a problem-to-service guide.', 'services service electrician electrical list all'],
     ['/about/', 'About Goff Electric', 'Owner Garrett Goff, credentials and what customers say.', 'about owner garrett goff company who team license licensed insured'],
     ['/contact/', 'Contact and free estimate', 'Phone, email, hours and the estimate form.', 'contact phone call email estimate quote hours number'],

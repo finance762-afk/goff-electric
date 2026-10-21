@@ -6,7 +6,7 @@
  *   $pageTitle, $pageDescription (alias $metaDescription), $canonicalUrl (optional — computed from the request URI when unset),
  *   $currentPage (nav state: home|services|areas|about|blog|faq|contact|legal),
  *   $pageType (home|service|city|blog|about|faq|contact|other) + $serviceSlug / $citySlug (attribution),
- *   $ogImage (optional, '/assets/images/…'), $ogType (optional), $noindex (thank-you / blog placeholder), $bodyClass (optional),
+ *   $ogImage (optional, '/assets/images/…'), $ogType (optional), $noindex (thank-you / blog placeholder), $robotsMeta (verbatim robots content, e.g. "noindex, follow"), $bodyClass (optional),
  *   $schemaMarkup (JSON string, one node array, or a list of node arrays — merged into this page's @graph),
  *   $heroPreload = ['srcset' => '/assets/images/<hero>-480.avif 480w, …-960.avif 960w, …-1600.avif 1600w', 'sizes' => '100vw'] on photo-hero pages.
  * The homepage ($pageType === 'home') emits the full Electrician (#organization) + WebSite nodes; every other page
