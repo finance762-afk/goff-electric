@@ -143,16 +143,15 @@ $socialLinks = [];
 $googleAnalyticsId = 'G-XXXXXXXXXX';
 
 /* ---------------------------------------------------------------------------
- * Brand colors — build-plan design.colors is empty and logo_analysis has not
- *   run yet. Phase 2 logo analysis fills these. Until then they mirror the
- *   framework.css :root defaults.
+ * Brand colors — Phase 2 logo analysis (2026-10-21), mirrored in framework.css
+ *   :root and build-plan design.colors.
  * ------------------------------------------------------------------------- */
 $colors = [
-    'primary'   => '#1f2428',
-    'secondary' => '#5a6570',
-    'accent'    => '#c8461a',
+    'primary'   => '#1e1a18',   // logo black (lifted)
+    'secondary' => '#5f5e5e',   // logo steel grey
+    'accent'    => '#f2a71b',   // Edison-filament amber (logo is monochrome)
 ];
-$archetype = '';   // build-plan design.archetype not set — Phase 2 decides
+$archetype = 'bold-industrial';   // Phase 2 logo analysis (build-plan design.archetype)
 
 /* ---------------------------------------------------------------------------
  * Company age — build-plan content.years is null. Do not invent a founding

@@ -262,11 +262,39 @@
     }
   },
   "design": {
-    "fonts": {},
+    "fonts": {
+      "heading": "Barlow Condensed",
+      "body": "Figtree",
+      "accent": "Barlow Condensed"
+    },
     "notes": "",
     "style": "modern",
-    "colors": {},
-    "logo_analysis": {}
+    "colors": {
+      "primary": "#1e1a18",
+      "secondary": "#5f5e5e",
+      "accent": "#f2a71b",
+      "dark": "#100d0c",
+      "paper": "#f5f4f1",
+      "ink": "#171412"
+    },
+    "logo_analysis": {
+      "source": "goff-electric-logo.jpg (749x450 JPEG, no alpha)",
+      "description": "White distressed/cracked wordmark \"GOFF / ELECTRIC\" with an Edison bulb as the O, wrapped in lightning-branch filaments, on a solid near-black field (#100D0C).",
+      "colors": [
+        "#100D0C",
+        "#F6F6F5",
+        "#A0A09F",
+        "#5F5F5E"
+      ],
+      "character": "organic-distressed, heavy display lettering, gritty — no hue",
+      "aspect_ratio": 1.82,
+      "logo_type": "combination (two-line wordmark with integrated mark)",
+      "processing": "Black field knocked out via luminance-to-alpha (clean anti-aliased white mark), trimmed → assets/images/logo-mark-v1.png (436x240). Original kept boxed as logo-boxed-v1.jpg for schema logo. Favicons from the Edison bulb.",
+      "nav": "dark glass header (rgba(16,13,12,.72) top → .92 scrolled); logo 104px desktop / 88px scrolled / 72px mobile; nav-height 116px desktop, 88px ≤1000px",
+      "accent_rationale": "Logo is monochrome; accent is Edison-filament amber drawn from the bulb — one saturated accent on a monochrome base (bold-industrial palette).",
+      "archetype_rationale": "Gritty, heavy, distressed lettering reads Bold/Industrial rather than minimal-tech; 11 real job photos support a full-bleed photo hero."
+    },
+    "archetype": "bold-industrial"
   },
   "domain": "electricgoff.com",
   "phases": [
