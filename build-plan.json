@@ -336,7 +336,7 @@
   "form_action": "https://db.pageone.cloud/functions/v1/leads/goff-electric",
   "github_repo": "",
   "web_sources": [],
-  "company_name": "Goff Electric llc",
+  "company_name": "Goff Electric",
   "integrations": {
     "geo": null,
     "bbb_url": null,
