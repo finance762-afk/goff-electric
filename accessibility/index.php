@@ -12,7 +12,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/legal-page.php';
 
 $pageTitle       = 'Accessibility Statement | Goff Electric, Rio Rancho NM';
-$pageDescription = 'Goff Electric in Rio Rancho, NM is working to meet WCAG 2.1 AA on its website. See the accessibility features, known issues and how to report a barrier.';
+$pageDescription = 'Goff Electric in Rio Rancho, NM works to meet WCAG 2.1 AA on its website. See its features and known issues, and call (505) 549-9454 to report a barrier.';
 $canonicalUrl    = $siteUrl . '/accessibility/';
 $currentPage     = 'legal';
 $pageType        = 'other';

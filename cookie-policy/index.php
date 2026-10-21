@@ -12,8 +12,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  */
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/legal-page.php';
 
-$pageTitle       = 'Cookie Policy | Goff Electric, Rio Rancho NM';
-$pageDescription = 'The cookies and similar technologies the Goff Electric website in Rio Rancho, NM uses, why it uses them, and how to control or opt out of them.';
+$pageTitle       = 'Cookie Policy | Goff Electric | Rio Rancho, NM Electrician';
+$pageDescription = 'The cookies the Goff Electric website in Rio Rancho, NM uses, why it uses them, and how to control or opt out of them. Questions? Call (505) 549-9454.';
 $canonicalUrl    = $siteUrl . '/cookie-policy/';
 $currentPage     = 'legal';
 $pageType        = 'other';

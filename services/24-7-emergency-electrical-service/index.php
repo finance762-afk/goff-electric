@@ -17,7 +17,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('24-7-emergency-electrical-service');
 $pageTitle    = '24/7 Emergency Electrician Rio Rancho NM | Goff Electric';
-$pageDescription = 'Emergency electrician for Rio Rancho and Albuquerque, NM, at any hour: power loss, breakers that will not reset, burning smells and storm damage. Goff Electric.';
+$pageDescription = 'Emergency electrician for Rio Rancho and Albuquerque, NM, any hour: power loss, breakers that will not reset, burning smells, storm damage. Call (505) 549-9454.';
 $canonicalUrl = $siteUrl . '/services/24-7-emergency-electrical-service/';
 $currentPage  = 'services';
 $pageType     = 'service';

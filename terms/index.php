@@ -12,8 +12,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  */
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/legal-page.php';
 
-$pageTitle       = 'Terms of Service | Goff Electric, Rio Rancho NM';
-$pageDescription = 'Terms of Service for the Goff Electric website and for estimates and electrical work in Rio Rancho, Albuquerque and nearby New Mexico towns.';
+$pageTitle       = 'Terms of Service | Goff Electric | Rio Rancho NM Electrician';
+$pageDescription = 'Terms for the Goff Electric website and for estimates and electrical work in Rio Rancho, Albuquerque and nearby NM towns. Call (505) 549-9454 with questions.';
 $canonicalUrl    = $siteUrl . '/terms/';
 $currentPage     = 'legal';
 $pageType        = 'other';

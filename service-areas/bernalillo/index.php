@@ -38,8 +38,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/area-page.php';
 
 $area         = apArea('bernalillo');
 $town         = $area['name'];
-$pageTitle    = 'Electrician in Bernalillo, NM | Historic & Commercial | Goff Electric';
-$pageDescription = 'Electrician in the Town of Bernalillo, NM: inspections for older adobe buildings, commercial work, panel upgrades and 24/7 calls. Free estimates from Goff Electric.';
+$pageTitle    = 'Electrician in Bernalillo, NM | Open 24/7 | Goff Electric';
+$pageDescription = 'Electrician for the Town of Bernalillo, NM: inspections for older adobe buildings, commercial work, panel upgrades, 24/7 calls. Call Goff Electric any hour.';
 $canonicalUrl = $siteUrl . '/service-areas/bernalillo/';
 $currentPage  = 'areas';
 $pageType     = 'city';
@@ -222,7 +222,7 @@ $faqs = [
         <li class="reveal-up"><h3><?php echo esc($stepRow[0]); ?></h3><p><?php echo esc($stepRow[1]); ?></p></li>
 <?php endforeach; ?>
       </ol>
-      <p class="bern-permit__note">Per the Town of Bernalillo Planning &amp; Zoning department, (505) 771-7118. Requirements change; confirm for your parcel before work starts.</p>
+      <p class="bern-permit__note">Per the Town of Bernalillo Planning &amp; Zoning department, <a href="tel:+15057717118">(505) 771-7118</a>. Requirements change; confirm for your parcel before work starts.</p>
     </div>
   </section>
 

@@ -52,8 +52,6 @@ $cbPhone   = formatPhone($phone);
     <div class="cta-band__card">
       <form class="cta-band__form" action="<?php echo esc($formAction); ?>" method="POST" id="cta-band">
         <?php echo p1_lead_hidden_fields('cta-band'); ?>
-        <input type="hidden" name="_consent_version" value="v2.1">
-        <input type="hidden" name="_consent_page" value="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'] ?? '/', ENT_QUOTES, 'UTF-8'); ?>">
         <div class="field"><label for="cta-band-name">Your name *</label><input id="cta-band-name" type="text" name="name" autocomplete="name" required></div>
         <div class="field"><label for="cta-band-phone">Phone *</label><input id="cta-band-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required></div>
         <div class="field"><label for="cta-band-email">Email *</label><input id="cta-band-email" type="email" name="email" autocomplete="email" required></div>

@@ -47,7 +47,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/area-page.php';
 $area         = apArea('placitas');
 $town         = $area['name'];
 $pageTitle    = 'Electrician in Placitas, NM | Foothill Homes | Goff Electric';
-$pageDescription = 'Placitas electrician for foothill homes from Diamond Tail to Las Huertas: underground runs in rocky ground, well circuits, EV chargers and 24/7 calls.';
+$pageDescription = 'Placitas electrician for foothill homes from Diamond Tail to Las Huertas: underground runs in rocky ground, well circuits, EV chargers. Call any hour.';
 $canonicalUrl = $siteUrl . '/service-areas/placitas/';
 $currentPage  = 'areas';
 $pageType     = 'city';

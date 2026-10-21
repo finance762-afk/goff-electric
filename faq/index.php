@@ -14,7 +14,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  * intake did not supply them (see /content-confirmations.json).
  */
 $pageTitle       = 'Rio Rancho Electrician FAQ | Costs & Permits | Goff Electric';
-$pageDescription = 'Answers from Goff Electric, Rio Rancho electrician: service areas, licensing, EV chargers, panel upgrades, hot tubs, free estimates, permits and emergencies.';
+$pageDescription = 'Goff Electric answers Rio Rancho electrical questions: service areas, licensing, EV chargers, panel upgrades, hot tubs, permits and emergencies. Call any hour.';
 $canonicalUrl    = $siteUrl . '/faq/';
 $currentPage     = 'faq';
 $pageType        = 'faq';

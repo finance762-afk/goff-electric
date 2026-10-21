@@ -17,7 +17,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  * header/mobile-bar "Free Estimate" link falls back to its href (/contact/, this page).
  */
 $pageTitle       = 'Contact Goff Electric | 24/7 Electrician in Rio Rancho, NM';
-$pageDescription = 'Call Goff Electric at (505) 549-9454, any hour, or request a free estimate online. Electricians for Rio Rancho, Albuquerque, Corrales and nearby towns.';
+$pageDescription = 'Call Goff Electric at (505) 549-9454 any hour, or request a free estimate online. Licensed electricians for Rio Rancho, Albuquerque, Corrales and nearby towns.';
 $canonicalUrl    = $siteUrl . '/contact/';
 $currentPage     = 'contact';
 $pageType        = 'contact';
@@ -185,8 +185,6 @@ $schemaMarkup = [$contactPage, $contactCrumbs];
       <p>Tell Goff Electric what is going on, the service you need and the town. The more detail, the more useful the first call.</p>
       <form class="estimate-form ct-form" action="<?php echo esc($formAction); ?>" method="POST" id="contact">
         <?php echo p1_lead_hidden_fields('contact'); ?>
-        <input type="hidden" name="_consent_version" value="v2.1">
-        <input type="hidden" name="_consent_page" value="<?php echo htmlspecialchars($_SERVER['REQUEST_URI'] ?? '/', ENT_QUOTES, 'UTF-8'); ?>">
         <div class="form-grid">
           <div class="field"><label for="contact-name">Your name *</label><input id="contact-name" type="text" name="name" autocomplete="name" required></div>
           <div class="field"><label for="contact-phone">Phone *</label><input id="contact-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required></div>
@@ -199,7 +197,7 @@ $schemaMarkup = [$contactPage, $contactCrumbs];
           <legend class="form-consent-legend">Communication consent</legend>
           <label class="form-consent-item" for="contact-email-opt-in">
             <input id="contact-email-opt-in" type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox">
-            <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo esc($siteName); ?> about my inquiry, services, promotions and news. I can unsubscribe at any time with the link in any email or by emailing <?php echo esc($email); ?>. Message frequency varies.</span>
+            <span class="consent-label"><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo esc($siteName); ?> about my inquiry, services, promotions and news. I can unsubscribe at any time with the link in any email or by emailing <a href="mailto:<?php echo esc($email); ?>"><?php echo esc($email); ?></a>. Message frequency varies.</span>
           </label>
           <label class="form-consent-item" for="contact-sms-opt-in">
             <input id="contact-sms-opt-in" type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox">

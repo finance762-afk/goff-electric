@@ -16,7 +16,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('electrical-panel-upgrades-repair');
 $pageTitle    = 'Panel Upgrades & Repair Rio Rancho NM | Goff Electric';
-$pageDescription = 'Electrical panel upgrades and breaker repair in Rio Rancho and Albuquerque, NM: older 100-amp panels, tripping breakers and new service. Free estimates.';
+$pageDescription = 'Electrical panel upgrades and breaker repair in Rio Rancho and Albuquerque, NM: older 100-amp panels, tripping breakers, new service. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/services/electrical-panel-upgrades-repair/';
 $currentPage  = 'services';
 $pageType     = 'service';

@@ -43,8 +43,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/area-page.php';
 
 $area         = apArea('albuquerque');
 $town         = $area['name'];
-$pageTitle    = 'Electrician in Albuquerque, NM | Panels, EV & 24/7 | Goff Electric';
-$pageDescription = 'Albuquerque electrician for Westside, Northeast Heights and valley homes and businesses: panels, EV chargers, commercial work and 24/7 emergency calls.';
+$pageTitle    = 'Albuquerque Electrician | Panels, EV & 24/7 | Goff Electric';
+$pageDescription = 'Albuquerque electrician for Westside, Northeast Heights and valley homes and businesses: panels, EV chargers, 24/7 emergencies. Call Goff Electric any hour.';
 $canonicalUrl = $siteUrl . '/service-areas/albuquerque/';
 $currentPage  = 'areas';
 $pageType     = 'city';
@@ -87,7 +87,7 @@ $faqs = [
     ],
     [
         'q' => 'Do you answer emergency calls in Albuquerque at night?',
-        'a' => 'Yes. Goff Electric\'s phone is answered around the clock, every day, including for Albuquerque. If you need an emergency electrician near me in Albuquerque for a burning smell, sparking or a breaker that will not reset, call ' . esc($phoneText) . '. If you see smoke or flames, get out and call 911 first. See <a href="' . esc(serviceUrl('24-7-emergency-electrical-service') ?: '/contact/') . '">24/7 emergency electrical service</a>.',
+        'a' => 'Yes. Goff Electric\'s phone is answered around the clock, every day, including for Albuquerque. If you need an emergency electrician near me in Albuquerque for a burning smell, sparking or a breaker that will not reset, call ' . '<a href="tel:' . esc($phoneRaw) . '">' . esc($phoneText) . '</a>' . '. If you see smoke or flames, get out and call 911 first. See <a href="' . esc(serviceUrl('24-7-emergency-electrical-service') ?: '/contact/') . '">24/7 emergency electrical service</a>.',
     ],
 ];
 ?>

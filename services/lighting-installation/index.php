@@ -15,7 +15,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('lighting-installation');
 $pageTitle    = 'Lighting Installation Rio Rancho NM | Goff Electric';
-$pageDescription = 'Recessed, pendant and exterior lighting installation in Rio Rancho and Albuquerque, NM by Goff Electric, a licensed and insured electrician. Free estimates.';
+$pageDescription = 'Recessed, pendant and exterior lighting installed in Rio Rancho and Albuquerque, NM by Goff Electric, a licensed and insured electrician. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/services/lighting-installation/';
 $currentPage  = 'services';
 $pageType     = 'service';

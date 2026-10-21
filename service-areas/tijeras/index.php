@@ -42,8 +42,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/area-page.php';
 
 $area         = apArea('tijeras');
 $town         = $area['name'];
-$pageTitle    = 'Electrician in Tijeras, NM | East Mountains 24/7 | Goff Electric';
-$pageDescription = 'Tijeras and East Mountains electrician: storm and outage calls any hour, panel upgrades, surge protection and outdoor circuits built for canyon wind and snow.';
+$pageTitle    = 'Electrician in Tijeras, NM | East Mountains | Goff Electric';
+$pageDescription = 'Tijeras and East Mountains electrician: storm and outage calls 24/7, panel upgrades, surge protection, outdoor circuits for canyon wind. Call (505) 549-9454.';
 $canonicalUrl = $siteUrl . '/service-areas/tijeras/';
 $currentPage  = 'areas';
 $pageType     = 'city';
@@ -80,11 +80,11 @@ $ladder = [
 $faqs = [
     [
         'q' => 'What should I do if PNM shuts off power in the East Mountains for fire danger?',
-        'a' => 'Plan ahead. PNM scheduled its first-ever wildfire safety shutoff in the East Mountains in March 2025, for about 10,000 customers, before calling it off. Know how you will keep a well pump, medical equipment or a freezer running, and never back-feed a generator through a dryer or range outlet. If the power comes back and part of the house does not, call Goff Electric at ' . esc($phoneText) . '.',
+        'a' => 'Plan ahead. PNM scheduled its first-ever wildfire safety shutoff in the East Mountains in March 2025, for about 10,000 customers, before calling it off. Know how you will keep a well pump, medical equipment or a freezer running, and never back-feed a generator through a dryer or range outlet. If the power comes back and part of the house does not, call Goff Electric at ' . '<a href="tel:' . esc($phoneRaw) . '">' . esc($phoneText) . '</a>' . '.',
     ],
     [
         'q' => 'Who issues electrical permits in Tijeras and the East Mountains?',
-        'a' => 'In the unincorporated East Mountains, including Cedar Crest, Sandia Park and Chilili, Bernalillo County issues electrical permits through its online Accela portal. Inside the Village of Tijeras itself, confirm the permit route with the village at (505) 281-1220 before work starts. Goff Electric can tell you what your project needs at the estimate.',
+        'a' => 'In the unincorporated East Mountains, including Cedar Crest, Sandia Park and Chilili, Bernalillo County issues electrical permits through its online Accela portal. Inside the Village of Tijeras itself, confirm the permit route with the village at <a href="tel:+15052811220">(505) 281-1220</a> before work starts. Goff Electric can tell you what your project needs at the estimate.',
     ],
     [
         'q' => 'Does Goff Electric come up to Tijeras for emergencies?',

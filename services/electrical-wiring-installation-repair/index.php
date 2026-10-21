@@ -18,7 +18,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('electrical-wiring-installation-repair');
 $pageTitle    = 'Electrical Wiring & Repair Rio Rancho NM | Goff Electric';
-$pageDescription = 'Electrical wiring installation and repair in Rio Rancho and Albuquerque, NM: shorts traced, rewiring, additions and underground feeders. Free estimates.';
+$pageDescription = 'Electrical wiring installation and repair in Rio Rancho and Albuquerque, NM: shorts traced, rewiring, additions and underground feeders. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/services/electrical-wiring-installation-repair/';
 $currentPage  = 'services';
 $pageType     = 'service';

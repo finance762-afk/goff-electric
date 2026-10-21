@@ -14,8 +14,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('outlets-switches');
-$pageTitle    = 'Outlets & Switches Rio Rancho NM | Goff Electric';
-$pageDescription = 'Dead, warm or loose outlets and switches repaired, GFCI protection added and new outlets installed in Rio Rancho and Albuquerque, NM. Free estimates.';
+$pageTitle    = 'Outlets & Switches in Rio Rancho, NM | Goff Electric';
+$pageDescription = 'Dead, warm or loose outlets and switches repaired, GFCI protection added and new outlets installed in Rio Rancho and Albuquerque, NM. Get a free estimate today.';
 $canonicalUrl = $siteUrl . '/services/outlets-switches/';
 $currentPage  = 'services';
 $pageType     = 'service';

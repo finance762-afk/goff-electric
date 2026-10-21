@@ -12,8 +12,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  */
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
-$pageTitle       = 'Electrical Services Rio Rancho & Albuquerque NM | Goff Electric';
-$pageDescription = 'All 10 Goff Electric services in Rio Rancho and Albuquerque, NM: panels, EV chargers, wiring, lighting, fans, outlets, inspections and emergency calls.';
+$pageTitle       = 'Electrical Services in Rio Rancho, NM | Goff Electric';
+$pageDescription = 'Goff Electric\'s 10 services for Rio Rancho and Albuquerque, NM: panels, EV chargers, wiring, lighting, fans, outlets and emergencies. Get a free estimate.';
 $canonicalUrl    = $siteUrl . '/services/';
 $currentPage     = 'services';
 $pageType        = 'other';

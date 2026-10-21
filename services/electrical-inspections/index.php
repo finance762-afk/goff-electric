@@ -17,7 +17,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('electrical-inspections');
 $pageTitle    = 'Electrical Inspections Rio Rancho NM | Goff Electric';
-$pageDescription = 'Electrical safety inspections in Rio Rancho and Albuquerque, NM for homeowners, buyers and businesses: panel, breakers, outlets and wiring. Free estimates.';
+$pageDescription = 'Electrical safety inspections in Rio Rancho and Albuquerque, NM for owners, buyers and businesses: panel, breakers, outlets, wiring. Book with Goff Electric.';
 $canonicalUrl = $siteUrl . '/services/electrical-inspections/';
 $currentPage  = 'services';
 $pageType     = 'service';

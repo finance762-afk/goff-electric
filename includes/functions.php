@@ -350,8 +350,12 @@ if (!function_exists('schemaPostalAddress')) {
 }
 
 if (!function_exists('generateLocalBusinessSchema')) {
-    /** Homepage Electrician node (@id #organization). Every field comes from config.php; empty values are omitted, never guessed. */
-    function generateLocalBusinessSchema(): array {
+    /**
+     * Electrician node (@id #organization). Every field comes from config.php; empty values are omitted, never guessed.
+     * $full = false (inner pages): same entity and NAP without the service catalog, so every page carries LocalBusiness
+     * while the homepage stays the one full definition.
+     */
+    function generateLocalBusinessSchema(bool $full = true): array {
         global $siteName, $siteUrl, $phoneRaw, $email, $geo, $gbpMapsUrl, $yearEstablished, $ownerName,
                $services, $serviceAreas, $socialLinks, $open24x7, $address, $licenseNumber;
         $root = rtrim($siteUrl, '/');
@@ -388,6 +392,8 @@ if (!function_exists('generateLocalBusinessSchema')) {
             $areaNodes[] = ['@type' => 'City', 'name' => $fnArea['name'] . ', ' . $address['state']];
         }
         if ($areaNodes) $node['areaServed'] = $areaNodes;
+
+        if (!$full) return $node;
 
         $offers = [];
         foreach ((array) $services as $fnSvc) {

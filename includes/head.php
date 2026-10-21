@@ -10,7 +10,7 @@
  *   $schemaMarkup (JSON string, one node array, or a list of node arrays — merged into this page's @graph),
  *   $heroPreload = ['srcset' => '/assets/images/<hero>-480.avif 480w, …-960.avif 960w, …-1600.avif 1600w', 'sizes' => '100vw'] on photo-hero pages.
  * The homepage ($pageType === 'home') emits the full Electrician (#organization) + WebSite nodes; every other page
- * references them by @id (provider) and never duplicates the LocalBusiness block.
+ * gets the compact #organization node (same @id and NAP, no service catalog) unless the page already supplies it.
  */
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
@@ -38,6 +38,13 @@ if (!empty($schemaMarkup)) {
     }
 }
 $headNodes = array_values(array_filter($headNodes));
+// LocalBusiness on every page: inner pages get the compact #organization node unless the page already defines it
+$headOrgId = rtrim($siteUrl, '/') . '/#organization';
+$headHasOrg = false;
+foreach ($headNodes as $headNode) {
+    if (($headNode['@id'] ?? '') === $headOrgId && isset($headNode['address'])) { $headHasOrg = true; break; }
+}
+if (!$headHasOrg) array_unshift($headNodes, generateLocalBusinessSchema(false));
 ?>
 <!DOCTYPE html>
 <html lang="en">

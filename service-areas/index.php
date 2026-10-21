@@ -14,8 +14,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/area-page.php';
 
-$pageTitle       = 'Electrician in Rio Rancho & Surrounding Communities | Goff Electric';
-$pageDescription = 'Goff Electric serves Rio Rancho, Albuquerque, Corrales, Bernalillo, Placitas and Tijeras, NM from its Rio Rancho base. Open 24/7, licensed and insured.';
+$pageTitle       = 'Service Areas: Rio Rancho & Albuquerque NM | Goff Electric';
+$pageDescription = 'Goff Electric serves Rio Rancho, Albuquerque, Corrales, Bernalillo, Placitas and Tijeras, NM. Licensed, insured and open 24/7. Call (505) 549-9454 any hour.';
 $canonicalUrl    = $siteUrl . '/service-areas/';
 $currentPage     = 'areas';
 $pageType        = 'other';
@@ -286,7 +286,7 @@ $schemaMarkup = [$hubPage, generateBreadcrumbSchema($crumbs)];
           </thead>
           <tbody>
 <?php foreach ($permitRows as $permitRow): $permitHref = areaUrl($permitRow[2], false); ?>
-            <tr><th scope="row"><?php echo $permitHref !== '' ? '<a href="' . esc($permitHref) . '">' . esc($permitRow[0]) . '</a>' : esc($permitRow[0]); ?></th><td><?php echo esc($permitRow[1]); ?></td></tr>
+            <tr><th scope="row"><?php echo $permitHref !== '' ? '<a href="' . esc($permitHref) . '">' . esc($permitRow[0]) . '</a>' : esc($permitRow[0]); ?></th><td><?php echo preg_replace_callback('/\((\d{3})\) (\d{3})-(\d{4})/', fn($permitTel) => '<a href="tel:+1' . $permitTel[1] . $permitTel[2] . $permitTel[3] . '">' . $permitTel[0] . '</a>', esc($permitRow[1])); ?></td></tr>
 <?php endforeach; ?>
           </tbody>
         </table>

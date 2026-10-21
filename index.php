@@ -13,7 +13,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  * Link integrity: service/area/hub links render only once the page exists on disk (serviceUrl, areaUrl, siteHas).
  */
 $pageTitle       = 'Goff Electric | 24/7 Electrician in Rio Rancho, NM';
-$pageDescription = 'Goff Electric is a licensed, insured electrician in Rio Rancho, NM for panel upgrades, EV chargers, lighting, wiring and 24/7 emergency calls. Free estimates.';
+$pageDescription = 'Goff Electric: licensed, insured electrician in Rio Rancho, NM for panel upgrades, EV chargers, lighting, wiring and 24/7 emergency calls. Call (505) 549-9454.';
 $canonicalUrl    = $siteUrl . '/';
 $ogImage         = '/assets/images/og-default-v1.jpg';
 $currentPage     = 'home';
@@ -496,7 +496,7 @@ endfor; ?>
 
         <h3 class="process-title">How a Goff Electric job runs</h3>
         <ol class="process-steps">
-          <li><b>Call or send the form</b><span>Describe the problem or project, day or night, at <?php echo esc($phoneText); ?>.</span></li>
+          <li><b>Call or send the form</b><span>Describe the problem or project, day or night, at <a href="tel:<?php echo esc($phoneRaw); ?>"><?php echo esc($phoneText); ?></a>.</span></li>
           <li><b>Look and estimate</b><span>A no-cost estimate, with a load calculation when a charger or new circuit needs one.</span></li>
           <li><b>Do the work to code</b><span>Wiring installed to the electrical code New Mexico has adopted.</span></li>
           <li><b>Walk through it</b><span>You see what was done and how it works before the job is closed out.</span></li>
@@ -595,7 +595,7 @@ endfor; ?>
           <legend class="form-consent-legend">Communication consent</legend>
           <label class="consent" for="est-email-opt-in">
             <input id="est-email-opt-in" type="checkbox" name="email_opt_in" value="yes">
-            <span><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo esc($siteName); ?> about my inquiry, services, promotions and news. I can unsubscribe anytime via the link in any email or by emailing <?php echo esc($email); ?>. Message frequency varies.</span>
+            <span><strong>Email updates (optional):</strong> I agree to receive emails from <?php echo esc($siteName); ?> about my inquiry, services, promotions and news. I can unsubscribe anytime via the link in any email or by emailing <a href="mailto:<?php echo esc($email); ?>"><?php echo esc($email); ?></a>. Message frequency varies.</span>
           </label>
           <label class="consent" for="est-sms-opt-in">
             <input id="est-sms-opt-in" type="checkbox" name="sms_opt_in" value="yes">

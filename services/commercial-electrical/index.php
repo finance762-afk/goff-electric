@@ -16,7 +16,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('commercial-electrical');
 $pageTitle    = 'Commercial Electrical Rio Rancho NM | Goff Electric';
-$pageDescription = 'Commercial electrician for Rio Rancho and Albuquerque, NM businesses: electrical rooms, panels, conduit, feeders and lighting by Goff Electric. Free estimates.';
+$pageDescription = 'Commercial electrician for Rio Rancho and Albuquerque businesses: electrical rooms, panels, conduit, feeders and lighting by Goff Electric. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/services/commercial-electrical/';
 $currentPage  = 'services';
 $pageType     = 'service';

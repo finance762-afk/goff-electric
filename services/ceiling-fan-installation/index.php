@@ -15,7 +15,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('ceiling-fan-installation');
 $pageTitle    = 'Ceiling Fan Installation Rio Rancho NM | Goff Electric';
-$pageDescription = 'Ceiling fan installation and replacement in Rio Rancho and Albuquerque, NM: fan-rated boxes, light kits and wall controls by Goff Electric. Free estimates.';
+$pageDescription = 'Ceiling fan installation and replacement in Rio Rancho and Albuquerque, NM: fan-rated boxes, light kits and wall controls by Goff Electric. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/services/ceiling-fan-installation/';
 $currentPage  = 'services';
 $pageType     = 'service';

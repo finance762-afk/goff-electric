@@ -42,8 +42,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/area-page.php';
 
 $area         = apArea('corrales');
 $town         = $area['name'];
-$pageTitle    = 'Electrician in Corrales, NM | Acre Lots & Wells | Goff Electric';
-$pageDescription = 'Corrales electrician for acre-lot homes: underground feeders to shops and barns, well-house circuits, inspections and 24/7 calls. Based next door in Rio Rancho.';
+$pageTitle    = 'Electrician in Corrales, NM | Acre Lots | Goff Electric';
+$pageDescription = 'Corrales electrician for acre-lot homes: underground feeders to shops and barns, well-house circuits, inspections, 24/7 calls. Call Goff Electric any hour.';
 $canonicalUrl = $siteUrl . '/service-areas/corrales/';
 $currentPage  = 'areas';
 $pageType     = 'city';
@@ -84,7 +84,7 @@ $faqs = [
     ],
     [
         'q' => 'Who do I call when a tree takes down the line to my house?',
-        'a' => 'Stay well away from any downed line and call PNM first; the line from the pole to your house is theirs. Once PNM has made it safe, damage on your side, such as a torn mast, a pulled meter base or a dead panel, is electrician work. Goff Electric answers ' . esc($phoneText) . ' around the clock for exactly that.',
+        'a' => 'Stay well away from any downed line and call PNM first; the line from the pole to your house is theirs. Once PNM has made it safe, damage on your side, such as a torn mast, a pulled meter base or a dead panel, is electrician work. Goff Electric answers ' . '<a href="tel:' . esc($phoneRaw) . '">' . esc($phoneText) . '</a>' . ' around the clock for exactly that.',
     ],
     [
         'q' => 'Do I need a permit for electrical work in Corrales?',

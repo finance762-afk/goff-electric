@@ -16,7 +16,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('residential-electrical');
 $pageTitle    = 'Residential Electrical Rio Rancho NM | Goff Electric';
-$pageDescription = 'Home electrician in Rio Rancho and Albuquerque, NM: hot tub circuits, kitchen and bath outlets, new circuits and repairs by Goff Electric. Free estimates.';
+$pageDescription = 'Home electrician in Rio Rancho and Albuquerque, NM: hot tub circuits, kitchen and bath outlets, new circuits and repairs by Goff Electric. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/services/residential-electrical/';
 $currentPage  = 'services';
 $pageType     = 'service';

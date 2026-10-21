@@ -45,7 +45,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/area-page.php';
 $area         = apArea('rio-rancho');
 $town         = $area['name'];
 $pageTitle    = 'Electrician in Rio Rancho, NM | Goff Electric | Open 24/7';
-$pageDescription = 'Goff Electric is a Rio Rancho electrician based in 87124: panel upgrades, EV chargers, hot tub circuits, lighting and 24/7 emergency calls. Free estimates.';
+$pageDescription = 'Goff Electric is a Rio Rancho electrician based in 87124: panel upgrades, EV chargers, hot tub circuits, lighting and 24/7 emergency calls. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/service-areas/rio-rancho/';
 $currentPage  = 'areas';
 $pageType     = 'city';
@@ -76,7 +76,7 @@ $faqs = [
     ],
     [
         'q' => 'Is the power out, or is it just my house?',
-        'a' => 'If neighbors are dark too, the outage is on PNM\'s side, and PNM is who to call. If only your house, or only part of it, has lost power, the problem is usually at your panel, a breaker or your service wiring, and that is a job for an electrician. Goff Electric answers ' . esc($phoneText) . ' around the clock.',
+        'a' => 'If neighbors are dark too, the outage is on PNM\'s side, and PNM is who to call. If only your house, or only part of it, has lost power, the problem is usually at your panel, a breaker or your service wiring, and that is a job for an electrician. Goff Electric answers ' . '<a href="tel:' . esc($phoneRaw) . '">' . esc($phoneText) . '</a>' . ' around the clock.',
     ],
     [
         'q' => 'Can Goff Electric work on a lot in the Rio Rancho Estates?',

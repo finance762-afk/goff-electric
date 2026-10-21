@@ -12,8 +12,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  */
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/legal-page.php';
 
-$pageTitle       = 'Privacy Policy | Goff Electric, Rio Rancho NM';
-$pageDescription = 'How Goff Electric in Rio Rancho, NM collects, uses and protects information from its website, estimate forms, calls and texts, and your privacy rights.';
+$pageTitle       = 'Privacy Policy | Goff Electric | Rio Rancho, NM Electrician';
+$pageDescription = 'How Goff Electric in Rio Rancho, NM collects, uses and protects information from its website, forms, calls and texts. Read your rights or call with questions.';
 $canonicalUrl    = $siteUrl . '/privacy-policy/';
 $currentPage     = 'legal';
 $pageType        = 'other';

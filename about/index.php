@@ -15,7 +15,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
  * crew size, Garrett's background.
  */
 $pageTitle       = 'About Goff Electric | Licensed Electrician in Rio Rancho, NM';
-$pageDescription = 'Meet Goff Electric, the locally owned Rio Rancho electrician run by Garrett Goff: homes and businesses, open 24/7, rated 4.9 on Google from 42 reviews.';
+$pageDescription = 'Meet Goff Electric, the locally owned Rio Rancho electrician run by Garrett Goff, rated 4.9 on Google from 42 reviews and open 24/7. Call (505) 549-9454.';
 $canonicalUrl    = $siteUrl . '/about/';
 $ogImage         = '/assets/images/gbp-12-additional-960.webp';
 $currentPage     = 'about';

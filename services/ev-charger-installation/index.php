@@ -14,7 +14,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/service-page.php';
 
 $svc          = spService('ev-charger-installation');
 $pageTitle    = 'EV Charger Installation Rio Rancho NM | Goff Electric';
-$pageDescription = 'Level 2 EV charger installation in Rio Rancho and Albuquerque, NM: a load calculation on your panel, then a dedicated 240-volt circuit. Free estimates.';
+$pageDescription = 'Level 2 EV charger installation in Rio Rancho and Albuquerque, NM: a load calculation on your panel, then a dedicated 240-volt circuit. Get a free estimate.';
 $canonicalUrl = $siteUrl . '/services/ev-charger-installation/';
 $currentPage  = 'services';
 $pageType     = 'service';
