@@ -1,0 +1,504 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 30,
+    "primary_keyword": "electrician Rio Rancho NM",
+    "secondary_keywords": [
+      "electrician Albuquerque NM",
+      "EV charger installation Albuquerque",
+      "electrical panel upgrade Rio Rancho",
+      "emergency electrician Albuquerque",
+      "commercial electrician Albuquerque"
+    ]
+  },
+  "tier": "premium",
+  "email": "goffelectric32@gmail.com",
+  "pages": [
+    {
+      "slug": "residential-electrical",
+      "type": "service",
+      "title": "Residential Electrical in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Residential Electrical"
+      ],
+      "primary_keyword": "residential electrical Rio Rancho NM"
+    },
+    {
+      "slug": "commercial-electrical",
+      "type": "service",
+      "title": "Commercial Electrical in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Commercial Electrical"
+      ],
+      "primary_keyword": "commercial electrical Rio Rancho NM"
+    },
+    {
+      "slug": "ev-charger-installation",
+      "type": "service",
+      "title": "EV Charger Installation in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "EV Charger Installation"
+      ],
+      "primary_keyword": "ev charger installation Rio Rancho NM"
+    },
+    {
+      "slug": "electrical-panel-upgrades-repair",
+      "type": "service",
+      "title": "Electrical Panel Upgrades & Repair in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Electrical Panel Upgrades & Repair"
+      ],
+      "primary_keyword": "electrical panel upgrades & repair Rio Rancho NM"
+    },
+    {
+      "slug": "lighting-installation",
+      "type": "service",
+      "title": "Lighting Installation in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Lighting Installation"
+      ],
+      "primary_keyword": "lighting installation Rio Rancho NM"
+    },
+    {
+      "slug": "ceiling-fan-installation",
+      "type": "service",
+      "title": "Ceiling Fan Installation in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Ceiling Fan Installation"
+      ],
+      "primary_keyword": "ceiling fan installation Rio Rancho NM"
+    },
+    {
+      "slug": "outlets-switches",
+      "type": "service",
+      "title": "Outlets & Switches in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Outlets & Switches"
+      ],
+      "primary_keyword": "outlets & switches Rio Rancho NM"
+    },
+    {
+      "slug": "electrical-wiring-installation-repair",
+      "type": "service",
+      "title": "Electrical Wiring Installation & Repair in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Electrical Wiring Installation & Repair"
+      ],
+      "primary_keyword": "electrical wiring installation & repair Rio Rancho NM"
+    },
+    {
+      "slug": "electrical-inspections",
+      "type": "service",
+      "title": "Electrical Inspections in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Electrical Inspections"
+      ],
+      "primary_keyword": "electrical inspections Rio Rancho NM"
+    },
+    {
+      "slug": "24-7-emergency-electrical-service",
+      "type": "service",
+      "title": "24/7 Emergency Electrical Service in Rio Rancho, NM",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "24/7 Emergency Electrical Service"
+      ],
+      "primary_keyword": "24/7 emergency electrical service Rio Rancho NM"
+    }
+  ],
+  "phone": "(505) 549-9454",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/photos/goff-electric-logo-small.png",
+      "storage_path": "client-assets/goff-electric/photos/goff-electric-logo-small.png"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-03-additional.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-03-additional.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-04-additional.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-04-additional.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-06-at_work.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-06-at_work.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-08-at_work.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-08-at_work.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-09-at_work.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-09-at_work.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-11-at_work.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-11-at_work.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-12-additional.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-12-additional.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-01-additional.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-01-additional.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-02-additional.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-02-additional.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-07-at_work.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-07-at_work.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-10-at_work.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "work",
+        "storage_path": "client-assets/goff-electric/photos/gbp-10-at_work.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/goff-electric-logo-small.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "client-assets/goff-electric/photos/goff-electric-logo-small.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/goff-electric-logo.webp",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "client-assets/goff-electric/photos/goff-electric-logo.jpg",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/goff-electric/processed/gbp-03-additional.webp",
+      "context": "work",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "modern",
+    "colors": {},
+    "logo_analysis": {}
+  },
+  "domain": "electricgoff.com",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "87124",
+    "city": "Rio Rancho",
+    "state": "NM",
+    "street": ""
+  },
+  "content": {
+    "usps": [
+      "4.9-star Google rating from 42 reviews",
+      "Open 24 hours, 7 days — 24/7 emergency electrical service (per Google listing and client site)",
+      "Residential and commercial electrical work",
+      "Licensed & insured NM electrical contractor (stated on client's current site)",
+      "Free estimates (stated on client's current site)",
+      "Locally owned in Rio Rancho, serving the Albuquerque metro"
+    ],
+    "years": null,
+    "insurance": "",
+    "description": "Goff Electric is a licensed and insured New Mexico electrical contractor based in Rio Rancho and serving Albuquerque, Corrales, Bernalillo, Placitas and Tijeras. Residential and commercial work: panel upgrades, EV charger installation, lighting, ceiling fans, outlets and switches, wiring, inspections and 24-hour emergency electrical service. Rated 4.9 stars on Google from 42 reviews.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "Trusted electricians serving Rio Rancho & Albuquerque, NM — open 24 hours",
+  "industry": "electrical",
+  "services": [
+    "Residential Electrical",
+    "Commercial Electrical",
+    "EV Charger Installation",
+    "Electrical Panel Upgrades & Repair",
+    "Lighting Installation",
+    "Ceiling Fan Installation",
+    "Outlets & Switches",
+    "Electrical Wiring Installation & Repair",
+    "Electrical Inspections",
+    "24/7 Emergency Electrical Service"
+  ],
+  "owner_name": "Garrett Goff",
+  "client_slug": "goff-electric",
+  "form_action": "https://db.pageone.cloud/functions/v1/leads/goff-electric",
+  "github_repo": "",
+  "web_sources": [],
+  "company_name": "Goff Electric llc",
+  "integrations": {
+    "geo": null,
+    "bbb_url": null,
+    "booking": {
+      "days": [],
+      "windows": [],
+      "authorized": false
+    },
+    "spanish": false,
+    "financing": null,
+    "photo_day": null,
+    "accepts_sms": null,
+    "gbp_place_id": "ChIJUaTQ3sDB0KwRCjCl6we6pWc",
+    "estimate_tool": {
+      "pricing": [],
+      "authorized": false
+    },
+    "gbp_map_embed": null,
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=place_id:ChIJUaTQ3sDB0KwRCjCl6we6pWc",
+    "elfsight_embed": null,
+    "financing_note": null,
+    "scheduling_url": null,
+    "text_us_number": null,
+    "review_request_url": "https://search.google.com/local/writereview?placeid=ChIJUaTQ3sDB0KwRCjCl6we6pWc",
+    "certification_links": []
+  },
+  "service_areas": [
+    "Rio Rancho",
+    "Albuquerque",
+    "Corrales",
+    "Bernalillo",
+    "Placitas",
+    "Tijeras"
+  ],
+  "address_public": false,
+  "business_hours": "Open 24 hours, 7 days a week",
+  "image_curation": null,
+  "research_brief": {
+    "gbp": null,
+    "brief": {
+      "faqs": [
+        {
+          "a": "Most work that adds circuits, replaces a panel, or changes wiring requires a permit and inspection under the adopted electrical code. Goff Electric can handle the permit process for you. Confirm current requirements with the City of Rio Rancho before starting any project.",
+          "q": "Do I need a permit for electrical work in Rio Rancho?"
+        },
+        {
+          "a": "Call a licensed electrician if you notice breakers that trip often, lights that flicker or dim, outlets or switches that are warm or discolored, a burning smell, or buzzing from the panel. These can indicate overloads or faults that create a fire risk, so do not wait to have them checked.",
+          "q": "What are the warning signs that I need an electrician?"
+        },
+        {
+          "a": "Whole-home surge protection is a practical option in an area with frequent summer thunderstorms and lightning activity. It helps shield sensitive electronics and appliances, including HVAC equipment. A licensed electrician can evaluate your panel and recommend the right device.",
+          "q": "Should I install surge protection in my Rio Rancho home?"
+        },
+        {
+          "a": "Electrical contractors working in New Mexico must hold a license issued through the state Construction Industries Division. [Insert verified license number and insurance details before publishing.]",
+          "q": "Is Goff Electric licensed and insured?"
+        },
+        {
+          "a": "Yes, if these services are offered. Panel upgrades and EV charger installations often require a load calculation to confirm your home's capacity, and may require a permit and utility coordination. Request a free estimate to get an accurate scope and cost for your property.",
+          "q": "Can you upgrade my electrical panel or install an EV charger?"
+        }
+      ],
+      "about_angle": "Position Goff Electric as a locally rooted Rio Rancho contractor that treats every home and business like its own. Lead with community, reliability, and straight-forward communication. Replace placeholders with verified facts (founding year, owner or team background, license and insurance details, service area) before publishing, and avoid unverifiable superlatives.",
+      "hero_headline": "Trusted Electrical Service in Rio Rancho, NM",
+      "differentiators": [
+        "NOTE: No competitor, Google Business Profile, or existing site data was provided, so these are industry-based hypotheses to verify before publishing.",
+        "Hyperlocal positioning: name Rio Rancho and nearby service areas on every key page and in the Google Business Profile to capture local search intent.",
+        "Licensing and compliance as a trust signal: display the New Mexico electrical contractor license number and insurance status once verified with the state Construction Industries Division.",
+        "Permit and inspection handling for residential and commercial work, stated clearly so homeowners know what is included.",
+        "Desert-climate expertise: highlight load work tied to Rio Rancho conditions such as summer AC demand, surge protection against monsoon lightning, and solar or EV-ready upgrades, if the company offers them.",
+        "Transparent process: free on-site estimates, written quotes, and a clear explanation of the work before it starts (confirm current practice).",
+        "Social proof: collect and feature Google reviews and project photos from Rio Rancho jobs.",
+        "Named owner or lead technician and years in business, if verified, to humanize the brand against larger or out-of-area competitors."
+      ],
+      "hero_subheadline": "Goff Electric provides licensed, code-compliant residential and commercial electrical work across Rio Rancho. Call for a clear, honest estimate.",
+      "tone_recommendation": "Professional and friendly with an authoritative undertone: plain language, clear next steps, and a calm, safety-first voice. Avoid jargon and high-pressure sales language. Use local references to build familiarity, and back claims with verifiable credentials and reviews."
+    },
+    "competitors": [],
+    "generated_at": "2026-10-21T17:41:10.845Z",
+    "existing_site": null
+  },
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 16,
+    "tier": "premium",
+    "groups": [
+      {
+        "page": "Residential Electrical",
+        "solo": true,
+        "services": [
+          "Residential Electrical"
+        ]
+      },
+      {
+        "page": "Commercial Electrical",
+        "solo": true,
+        "services": [
+          "Commercial Electrical"
+        ]
+      },
+      {
+        "page": "EV Charger Installation",
+        "solo": true,
+        "services": [
+          "EV Charger Installation"
+        ]
+      },
+      {
+        "page": "Electrical Panel Upgrades & Repair",
+        "solo": true,
+        "services": [
+          "Electrical Panel Upgrades & Repair"
+        ]
+      },
+      {
+        "page": "Lighting Installation",
+        "solo": true,
+        "services": [
+          "Lighting Installation"
+        ]
+      },
+      {
+        "page": "Ceiling Fan Installation",
+        "solo": true,
+        "services": [
+          "Ceiling Fan Installation"
+        ]
+      },
+      {
+        "page": "Outlets & Switches",
+        "solo": true,
+        "services": [
+          "Outlets & Switches"
+        ]
+      },
+      {
+        "page": "Electrical Wiring Installation & Repair",
+        "solo": true,
+        "services": [
+          "Electrical Wiring Installation & Repair"
+        ]
+      },
+      {
+        "page": "Electrical Inspections",
+        "solo": true,
+        "services": [
+          "Electrical Inspections"
+        ]
+      },
+      {
+        "page": "24/7 Emergency Electrical Service",
+        "solo": true,
+        "services": [
+          "24/7 Emergency Electrical Service"
+        ]
+      }
+    ],
+    "grouped_count": 10,
+    "original_count": 10
+  },
+  "lead_notification_email": "goffelectric32@gmail.com",
+  "lead_notification_phone": "15055499454",
+  "google_business_profile_url": "https://www.google.com/maps/place/?q=place_id:ChIJUaTQ3sDB0KwRCjCl6we6pWc"
+}
