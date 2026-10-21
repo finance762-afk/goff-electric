@@ -410,6 +410,96 @@
       "path": "/services/",
       "useful_because": "The services hub is the only page that shows all ten Goff Electric services together (the homepage shows eight), split into who the work is for (homes vs. commercial buildings) and the eight specific jobs, plus a symptom-to-service table that turns the warning signs customers ask about (tripping breakers, warm outlets, burning smell, flicker when the AC starts, a new EV or hot tub arriving) into the right service page, and the six towns served with their counties.",
       "needs_confirmation": []
+    },
+    {
+      "path": "/about/",
+      "useful_because": "The About page tells a Rio Rancho or Albuquerque customer who will actually show up: owner Garrett Goff (named in most Google reviews) and crew member Rick, how Goff Electric handles a job (straight answers, options, finding the real fault, finishing the job), each point backed by a dated Google review, a milestone timeline built from the review record (the short three electricians missed, a cut service line traced after 7 p.m., the Corrales couple told no work was needed, a panel upgrade with a 220-volt hot tub outlet, an Albuquerque EV charger), and how to verify the license with the New Mexico CID. No sibling page covers the owner, the crew or the company's track record.",
+      "needs_confirmation": [
+        {
+          "fact": "Founding year and Garrett's background",
+          "question": "What year did Goff Electric start, and how long has Garrett worked as an electrician? Anything about his training (apprenticeship, journeyman/master license) you'd like on the About page?",
+          "where": "/about/ — story and milestones timeline"
+        },
+        {
+          "fact": "Crew",
+          "question": "Who else works with Garrett? A Google review names Rick on a panel upgrade; may we list Rick (and anyone else) by first name and role?",
+          "where": "/about/ — 'Who shows up at your door?'"
+        },
+        {
+          "fact": "License number",
+          "question": "What is the NM CID license number and classification? It will replace 'ask for the license number when you call'.",
+          "where": "/about/ credentials, /faq/ licensing answer"
+        },
+        {
+          "fact": "Photo of Garrett",
+          "question": "Is the electrician on the ladder in the kitchen pendant photo Garrett? If so we can caption it with his name; a portrait would also help the About page.",
+          "where": "/about/ — image stack"
+        }
+      ]
+    },
+    {
+      "path": "/contact/",
+      "useful_because": "The Contact page gives the 24/7 phone line as the headline, the full estimate form with separate email, SMS and terms consent, direct email, hours and home base, what happens after the form is sent, an emergency safety line, and the six towns by county. It is the only page with the full consent form and every contact method together.",
+      "needs_confirmation": [
+        {
+          "fact": "Google Maps embed",
+          "question": "Would you like a Google map on the Contact page? Because your street address is private, we'd embed a service-area map; send the 'Embed a map' iframe from your Google Business Profile, or approve a map centered on Rio Rancho.",
+          "where": "/contact/ — 'Where does Goff Electric work?' map slot"
+        },
+        {
+          "fact": "Callback time",
+          "question": "How soon do you usually reply to a web request? We say only 'you get a call or email back' until you confirm a time.",
+          "where": "/contact/ next steps, /thank-you"
+        }
+      ]
+    },
+    {
+      "path": "/faq/",
+      "useful_because": "The FAQ answers 20 questions in four groups (general, services, pricing, process): service towns, licensing, 24/7 availability, EV charger load calculations, panel-upgrade signs, hot tub and swim spa circuits, fan-rated boxes, inspections, surge protection, what drives a price, after-hours charges, what happens after a request, permits, and what to do before an electrician arrives in an emergency. It is the only page that gathers pricing and process questions in one place.",
+      "needs_confirmation": [
+        {
+          "fact": "Price ranges",
+          "question": "Can we publish typical ranges (EV charger install, panel upgrade, outlet/switch call, fan install)? The pricing answers currently explain what drives the price without numbers.",
+          "where": "/faq/ — Pricing"
+        },
+        {
+          "fact": "After-hours rates",
+          "question": "Is there an after-hours or emergency fee? The FAQ currently says to ask when you call and cites a review that mentions no late-notice upcharge.",
+          "where": "/faq/ — 'Is there an extra charge for after-hours or emergency calls?'"
+        },
+        {
+          "fact": "Permits",
+          "question": "Do you pull permits and schedule inspections for customers?",
+          "where": "/faq/ — permit answer"
+        }
+      ]
+    },
+    {
+      "path": "/privacy-policy/",
+      "useful_because": "Legal disclosure required for lead forms: what is collected (including the first-party attribution cookie), who receives it (Page One Insights as lead-handling partner), CCPA/CPRA and other state rights at #ccpa-rights, and the TCPA text-message terms.",
+      "needs_confirmation": [
+        {
+          "fact": "Legal entity name and state of formation",
+          "question": "Your Google listing says 'Goff Electric llc'. Is the legal name Goff Electric LLC, formed in New Mexico? The legal pages use that name, NM governing law and Sandoval County courts.",
+          "where": "/privacy-policy/, /terms/, /cookie-policy/, /accessibility/"
+        },
+        {
+          "fact": "Paid advertising",
+          "question": "Do you run Google Ads, Local Services Ads or Meta ads (with remarketing)? The Privacy Policy says personal information is not sold or shared for cross-context behavioral advertising; remarketing would change that.",
+          "where": "/privacy-policy/ — How we share it"
+        }
+      ]
+    },
+    {
+      "path": "/terms/",
+      "useful_because": "Terms for the website and for estimates and electrical work: estimates vs. final price, permits and inspections, emergency arrival times, utility-side faults, warranties left to the written contract, default cancellation terms, New Mexico governing law.",
+      "needs_confirmation": [
+        {
+          "fact": "Workmanship warranty, payment and cancellation",
+          "question": "Do you offer a workmanship warranty (and for how long), what payment methods do you take, and do you take deposits? The Terms currently defer all three to your written estimate or contract.",
+          "where": "/terms/ — Warranties, Payment, Cancellation"
+        }
+      ]
     }
   ],
   "consolidate": []
